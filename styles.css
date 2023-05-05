@@ -1,1 +1,27 @@
-/* Write your CSS here! */
+.header {
+    display: block;
+    color: goldenrod;
+    background-color: antiquewhite;
+}
+
+.amy {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  article {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    text-align: center;
+    color: purple;
+  }

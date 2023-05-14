@@ -3,37 +3,174 @@ body {
   display: block;
   margin: 8px;
   padding: 0;
+  background-image: url("https://i.imgur.com/5hB9WAm.jpg");
 }
 
 #mainHeading {
   color: red;
-  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 45px;
+  background-color: antiquewhite;
+  margin-right: auto;
+  margin-left:auto;
+  padding: 20px;
+  width: 50;
+
+}
+
+h4 {
+  text-align: center;
+  background-color: antiquewhite;
+  background: rgba(0,0,0,0.5);
+  width: 50%;
+  padding: 20px;
+  margin-right: auto;
+  margin-left:auto;
+  color:antiquewhite;
 }
 
 .funParagraph {
   color: green;
   margin: 10px 0;
   padding: 5px;
+  text-align: center;
 }
 
-.amy {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
+#testP {
+  font-weight: bolder;
 }
 
-img {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-  }
 
   article {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    color: purple;
+    color: darkred;
+    background-color: lightsalmon;
+    margin-right: 20%;
+    margin-left: 20%;
   }
+
+  
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+  width: auto;
+  height: auto;
+}
+}
+  
+* {
+  box-sizing: border-box;
+}
+  
+img {
+  vertical-align: center;
+}
+  
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin: auto;
+  max-width: fit-content;
+}
+  
+  /* Hide the images by default */
+.mySlides {
+  display: none;
+}
+  
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+  
+  /* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    font-size: 25px;
+    background-color: whitesmoke;
+    padding: 4px 16px;
+    color: salmon;
+    text-align: center;
+    border: 2x dashed pink;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: purple;
+}
+
+#kitten {
+  color: darkred;
+  text-align: center;
+  padding-left: 20%;
+  text-decoration-line: underline;
+  font-size: 25px;
+}  
